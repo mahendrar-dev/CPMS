@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — CPMS</title>
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .legal{ max-width:720px; margin:0 auto; padding:64px 24px 100px; }
+  .legal-header{
+    background:linear-gradient(135deg, var(--teal-900), var(--teal-700));
+    border-radius:var(--radius-md);
+    padding:28px;
+    display:flex; align-items:center; gap:18px;
+    margin-bottom:32px;
+  }
+  .legal-header .icon{
+    width:52px; height:52px; border-radius:14px;
+    background:rgba(255,255,255,.18);
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0;
+  }
+  .legal-header .icon svg{ width:26px; height:26px; color:#fff; }
+  .legal-header h1{ color:#fff; font-size:1.5rem; margin:0; }
+  .legal-header p{ color:rgba(255,255,255,.7); margin:4px 0 0; font-size:.85rem; }
+  .legal h2{ font-size:1.05rem; margin:32px 0 10px; color:var(--teal-900); }
+  .legal p, .legal li{ color:var(--ink-soft); line-height:1.75; font-size:.98rem; }
+  .legal ul{ padding-left:20px; margin:8px 0; }
+  .legal hr{ border:none; border-top:1px solid var(--line); margin:20px 0 0; }
+  .back-link{ display:inline-block; margin-bottom:24px; font-weight:600; color:var(--teal-700); text-decoration:none; }
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.png" alt="CPMS logo" class="brand-mark">
+      <span class="brand-name">CPMS</span>
+    </a>
+  </div>
+</header>
+
+<main class="legal">
+  <a href="index.html" class="back-link">&larr; Back to home</a>
+
+  <div class="legal-header">
+    <div class="icon">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+    </div>
+    <div>
+      <h1>Privacy Policy</h1>
+      <p>Last updated: June 2026</p>
+    </div>
+  </div>
+
+  <h2>1. Introduction</h2>
+  <p>CPMS (Clinic Patient Management System) is designed for small clinics and medical
+  practitioners. We are committed to protecting the privacy of your patients and your clinic
+  data. This policy explains how data is handled within this application.</p>
+  <hr>
+
+  <h2>2. Data Storage</h2>
+  <p>All patient data — including names, phone numbers, medical history, visit records,
+  prescriptions, and attached images — is stored exclusively on your device's local storage.
+  No patient data is transmitted to any external server or third party by default.</p>
+  <hr>
+
+  <h2>3. Google Drive Backup (Optional)</h2>
+  <p>If you choose to enable Google Drive Backup, your data is encrypted using AES-256
+  encryption before being uploaded to your personal Google Drive account. Only you can access
+  this backup. We do not have access to your Google account or the backup files.</p>
+  <hr>
+
+  <h2>4. Permissions Used</h2>
+  <ul>
+    <li><strong>Camera &amp; Storage:</strong> Used to capture and store patient photos and
+    medical images.</li>
+    <li><strong>Internet:</strong> Used only when Google Drive Backup is enabled.</li>
+    <li><strong>Google Account:</strong> Used only for authenticating Google Drive Backup.
+    We do not access any other Google services or data.</li>
+  </ul>
+  <hr>
+
+  <h2>5. Patient Data Responsibility</h2>
+  <p>As a medical practitioner using this application, you are responsible for ensuring that
+  patient data is handled in compliance with applicable local health data regulations (such
+  as the Digital Personal Data Protection Act in India). You must obtain appropriate consent
+  from patients before recording their medical information.</p>
+  <hr>
+
+  <h2>6. Data Deletion</h2>
+  <p>You can delete any patient's data at any time from within the app. Uninstalling the
+  application will remove all local data from your device. If Google Drive Backup is enabled,
+  you can delete backups from the Backup &amp; Restore screen.</p>
+  <hr>
+
+  <h2>7. Children's Privacy</h2>
+  <p>This application may contain medical records of minor patients as part of clinical
+  practice. This data is protected under the same local storage policy and is never shared
+  externally without your explicit action.</p>
+  <hr>
+
+  <h2>8. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Updates will be reflected in the
+  app version release notes. Continued use of the app after changes constitutes acceptance
+  of the updated policy.</p>
+  <hr>
+
+  <h2>9. Contact</h2>
+  <p>If you have questions about this Privacy Policy, please reach out via the
+  <a href="index.html#contact" style="color:var(--teal-700); font-weight:600;">Contact section</a>
+  of this site, or email <a href="mailto:contact.mahendrar@gmail.com" style="color:var(--teal-700); font-weight:600;">contact.mahendrar@gmail.com</a>.</p>
+</main>
+
+<footer class="footer">
+  <p class="footer-copy">&copy; <span id="year"></span> CPMS. All rights reserved.</p>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
