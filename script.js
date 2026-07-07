@@ -21,7 +21,7 @@
 // ===================================================================
 
 const ACCESS_CODE = "CPMS2026";
-const DOWNLOAD_URL = "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_HERE";
+const DOWNLOAD_URL = "https://github.com/mahendrar-dev/CPMS/releases/download/v1/app-release.apk";
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
