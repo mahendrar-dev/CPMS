@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CPMS — Clinic Patient Management System</title>
+<meta name="description" content="CPMS is an offline-first clinic management app for small clinics, Ayurveda practices, homeopathy clinics, dental clinics, and general practitioners. Manage patients, visits, and prescriptions — no internet needed.">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <img src="assets/logo.png" alt="CPMS logo" class="brand-mark">
+      <span class="brand-name">CPMS</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#screens">Inside the app</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="#download" class="nav-cta">Get the app</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Offline-first &middot; Built for small clinics</p>
+      <h1>The clinic register<br>that never needs<br><span class="ink">signal.</span></h1>
+      <p class="hero-sub">Register patients, track visits, and print prescriptions from your phone —
+      whether you're in a city clinic or a village with no network. CPMS runs entirely
+      on your device.</p>
+      <div class="hero-actions">
+        <a href="#download" class="btn btn-primary">Get the app</a>
+        <a href="#features" class="btn btn-ghost">See what it does</a>
+      </div>
+      <div class="hero-tags">
+        <span>Patient records</span>
+        <span>Prescription PDFs</span>
+        <span>PIN-locked</span>
+        <span>Works with zero bars</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="phone phone-lg">
+        <img src="assets/screenshots/dashboard.png" alt="CPMS dashboard showing patient count, today's follow-ups, and recent patients">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section class="features" id="features">
+  <div class="section-head">
+    <p class="eyebrow">Everything you need</p>
+    <h2>Built for the front desk, not the boardroom.</h2>
+    <p class="section-sub">No modules to configure, no cloud dashboard to log into. Open the app and start
+    seeing patients.</p>
+  </div>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <div class="feature-icon icon-teal">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M9 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 19c.6-3 2.8-5 5.5-5s4.9 2 5.5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M16 8.5a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5Z" stroke="currentColor" stroke-width="1.6"/><path d="M14.8 11.2c1.9.4 3.4 1.9 3.9 4.3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Patient records</h3>
+      <p>Register once, find them instantly by name or number — even years later.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon icon-blue">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M6 3h9l3 3v15a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="1.6"/><path d="M8.5 9h6M8.5 12.5h6M8.5 16h3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Visit history</h3>
+      <p>Every visit, symptom, and note lives on a timeline you can scroll back through.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon icon-amber">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M6 3h9l3 3v15a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="1.6"/><path d="M8.5 8.5h6M8.5 12h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="m8.5 15.5 1.8 1.8L14 13.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <h3>Prescription PDFs</h3>
+      <p>Generate a clean, printable prescription in seconds and share it however suits you.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon icon-purple">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M7 10.5V8a5 5 0 0 1 10 0v2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 3v3.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M5.5 10.5h13l-.9 8.1a2 2 0 0 1-2 1.9H8.4a2 2 0 0 1-2-1.9l-.9-8.1Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </div>
+      <h3>Encrypted backup</h3>
+      <p>AES-256 encrypted backup to your own Google Drive — your data, your account.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon icon-red">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="5" y="10" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 10V7a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="1.6"/><path d="M12 14v2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </div>
+      <h3>PIN lock</h3>
+      <p>Patient data is sensitive. A PIN keeps the app locked when it's not in your hands.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon icon-teal">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 3l18 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8.5 16.5a5 5 0 0 1 5.7-1.2M5 13a9 9 0 0 1 3-2.1M19 13a9 9 0 0 0-2-1.7M12 20.5h.01" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <h3>Fully offline</h3>
+      <p>No internet required for any core feature. Sync back home when you have signal.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SCREENSHOTS ============ -->
+<section class="screens" id="screens">
+  <div class="section-head">
+    <p class="eyebrow">Inside the app</p>
+    <h2>Simple enough for the first day, deep enough for the busiest one.</h2>
+  </div>
+
+  <div class="screens-row">
+    <figure class="phone phone-sm">
+      <img src="assets/screenshots/welcome.png" alt="CPMS welcome onboarding screen">
+      <figcaption>Set up your clinic in minutes</figcaption>
+    </figure>
+    <figure class="phone phone-sm phone-mid">
+      <img src="assets/screenshots/dashboard.png" alt="CPMS dashboard with today's follow-ups and recent patients">
+      <figcaption>Today's follow-ups, at a glance</figcaption>
+    </figure>
+    <figure class="phone phone-sm">
+      <img src="assets/screenshots/features.png" alt="CPMS onboarding screen listing patient management, prescription PDFs, secure backup and PIN lock">
+      <figcaption>Everything on one screen</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq" id="faq">
+  <div class="section-head">
+    <p class="eyebrow">Questions</p>
+    <h2>Frequently asked questions</h2>
+  </div>
+
+  <div class="faq-list">
+    <details class="faq-item" open>
+      <summary>Is my patient data safe?</summary>
+      <p>Yes. All data is stored only on your device. Nothing is sent to any server unless
+      you enable Google Drive Backup, which encrypts data before uploading.</p>
+    </details>
+    <details class="faq-item">
+      <summary>What happens if I lose my phone?</summary>
+      <p>If you have Google Drive Backup enabled, you can restore all your data on a new
+      device by signing in with the same Google account and restoring from backup.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can multiple doctors use the same app?</summary>
+      <p>Currently CPMS supports single-user mode. Multi-user support is planned for a
+      future version.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I print prescriptions?</summary>
+      <p>Yes. Prescriptions can be exported as PDFs and shared via WhatsApp, email, or any
+      sharing app. You can also print directly from the share menu.</p>
+    </details>
+    <details class="faq-item">
+      <summary>I forgot my PIN. What do I do?</summary>
+      <p>For security reasons, PINs cannot be recovered. You will need to uninstall and
+      reinstall the app. If you have a backup, you can restore your data afterward.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="section-head">
+    <p class="eyebrow">Support</p>
+    <h2>We're here to help</h2>
+    <p class="section-sub">Reach out through whichever channel is easiest for you.</p>
+  </div>
+
+  <div class="contact-grid">
+    <a class="contact-card" href="https://wa.me/919539362538?text=Hi%2C%20I%20need%20help%20with%20CPMS" target="_blank" rel="noopener">
+      <div class="contact-icon icon-whatsapp">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M17.6 6.3A8.9 8.9 0 0 0 3.4 17.1L2 22l5.1-1.3A8.9 8.9 0 0 0 17.6 6.3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8.6 8.9c.2-.5.4-.5.6-.5h.5c.2 0 .4 0 .5.4l.7 1.7c.1.2 0 .4-.1.5l-.4.5c-.1.2-.1.3 0 .5.3.6 1.4 1.9 2.6 2.3.2.1.3.1.5-.1l.5-.6c.1-.2.3-.2.5-.1l1.6.8c.2.1.3.2.3.4 0 1-.5 1.7-1.4 1.9-1.6.3-4-.3-5.8-2.6C9 14.1 8.2 12.1 8.4 9.9c0-.4.1-.7.2-1Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <h3>WhatsApp</h3>
+        <p>Fastest response, typically within 2 hours</p>
+      </div>
+    </a>
+
+    <a class="contact-card" href="mailto:contact.mahendrar@gmail.com?subject=CPMS%20Support&body=App%20Version%3A%201.0.0">
+      <div class="contact-icon icon-teal">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="5.5" width="17" height="13" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="m4.5 7 7.5 6 7.5-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <h3>Email</h3>
+        <p>contact.mahendrar@gmail.com</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ============ DOWNLOAD (GATED) ============ -->
+<section class="download" id="download">
+  <div class="download-card">
+    <p class="eyebrow eyebrow-light">Get the app</p>
+    <h2>Enter your access code</h2>
+    <p class="download-sub">CPMS is currently shared directly with clinics. Enter the code you were given
+    to unlock the Android download.</p>
+
+    <form id="unlock-form" class="unlock-form" autocomplete="off">
+      <label for="code-input" class="sr-only">Access code</label>
+      <input type="text" id="code-input" name="code" placeholder="Enter access code" inputmode="text" autocapitalize="characters">
+      <button type="submit" class="btn btn-primary">Unlock</button>
+    </form>
+
+    <p id="unlock-message" class="unlock-message" role="status" aria-live="polite"></p>
+
+    <div id="download-panel" class="download-panel" hidden>
+      <div class="download-panel-inner">
+        <img src="assets/logo.png" alt="" class="download-icon" aria-hidden="true">
+        <div>
+          <p class="download-file">CPMS.apk</p>
+          <p class="download-meta">Android 8.0+ &middot; v1.0.0</p>
+        </div>
+        <a id="download-link" href="#" class="btn btn-primary" target="_blank" rel="noopener">Download APK</a>
+      </div>
+      <p class="download-note">Downloading from outside the Play Store? Android may warn you about
+      "unknown sources" — that's expected. Allow the install to continue.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="CPMS logo" class="brand-mark">
+      <div>
+        <p class="footer-name">CPMS</p>
+        <p class="footer-tag">Built with Flutter + SQLite &middot; Offline-first &middot; Secure &middot; Fast</p>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+    </div>
+  </div>
+  <p class="footer-copy">&copy; <span id="year"></span> CPMS. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
