@@ -154,6 +154,10 @@ p{ color:var(--ink-soft); line-height:1.6; margin:0; }
   font-size:.82rem; font-weight:600; color:var(--teal-700);
   background:var(--teal-100); padding:7px 14px; border-radius:999px;
 }
+.hero-note{
+  margin-top:16px; font-size:.92rem; color:var(--ink-soft); max-width:46ch;
+}
+.hero-note a{ color:var(--teal-700); font-weight:700; text-decoration:underline; }
 .hero-visual{ display:flex; justify-content:center; }
 
 /* ---------------- PHONE FRAMES ---------------- */
@@ -204,6 +208,11 @@ figure.phone figcaption{
 .icon-red{ background:#fbe7e2; color:#c9502f; }
 .feature-card h3{ margin-bottom:8px; }
 .feature-card p{ font-size:.95rem; }
+.badge-premium{
+  display:inline-block; vertical-align:middle; margin-left:8px;
+  font-size:.68rem; font-weight:800; letter-spacing:.04em; text-transform:uppercase;
+  color:#92600a; background:var(--amber-100); padding:3px 9px; border-radius:999px;
+}
 
 /* ---------------- SCREENSHOTS ---------------- */
 .screens{ padding:40px 24px 100px; max-width:1120px; margin:0 auto; }
@@ -317,29 +326,7 @@ figure.phone figcaption{
 }
 .download h2{ color:#fff; }
 .download-sub{ color:#c9dcd6; margin-top:14px; }
-.unlock-form{
-  display:flex; gap:10px; margin-top:32px; flex-wrap:wrap; justify-content:center;
-}
-.unlock-form input{
-  flex:1; min-width:220px;
-  padding:14px 18px;
-  border-radius:999px;
-  border:1.5px solid rgba(255,255,255,.18);
-  background:rgba(255,255,255,.06);
-  color:#fff;
-  font-size:1rem;
-  font-family:var(--font-body);
-  letter-spacing:.05em;
-}
-.unlock-form input::placeholder{ color:#8fa9a2; letter-spacing:normal; }
-.unlock-form input:focus{ outline:none; border-color:var(--amber); background:rgba(255,255,255,.1); }
-.unlock-message{
-  min-height:1.4em; margin-top:16px; font-weight:600; font-size:.92rem;
-}
-.unlock-message.error{ color:#ff9d8a; }
-.unlock-message.success{ color:#8be0c2; }
-
-.download-panel{ margin-top:28px; }
+.download-panel{ margin-top:32px; }
 .download-panel-inner{
   background:#fff;
   border-radius:var(--radius-md);
