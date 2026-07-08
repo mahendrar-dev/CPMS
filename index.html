@@ -23,6 +23,7 @@
     <nav class="nav-links">
       <a href="#features">Features</a>
       <a href="#screens">Inside the app</a>
+      <a href="guide.html">User Guide</a>
       <a href="#developer">About</a>
       <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
@@ -51,6 +52,8 @@
         <span>PIN-locked</span>
         <span>Works with zero bars</span>
       </div>
+      <p class="hero-note">CPMS is free to use — patient records, visits, and prescriptions, no code required.
+      Google Drive Backup is available as an optional paid add-on; <a href="#contact">contact us</a> to enable it.</p>
     </div>
     <div class="hero-visual">
       <div class="phone phone-lg">
@@ -98,8 +101,9 @@
       <div class="feature-icon icon-purple">
         <svg viewBox="0 0 24 24" fill="none"><path d="M7 10.5V8a5 5 0 0 1 10 0v2.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 3v3.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M5.5 10.5h13l-.9 8.1a2 2 0 0 1-2 1.9H8.4a2 2 0 0 1-2-1.9l-.9-8.1Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
       </div>
-      <h3>Encrypted backup</h3>
-      <p>AES-256 encrypted backup to your own Google Drive — your data, your account.</p>
+      <h3>Encrypted backup <span class="badge-premium">Premium</span></h3>
+      <p>AES-256 encrypted backup to your own Google Drive — your data, your account. This is the
+      only feature that isn't free; every other feature on this page is included at no cost.</p>
     </div>
 
     <div class="feature-card">
@@ -152,14 +156,23 @@
 
   <div class="faq-list">
     <details class="faq-item" open>
+      <summary>Is CPMS free?</summary>
+      <p>Yes. Patient records, visit history, prescription PDFs, and PIN lock are all free —
+      no access code needed to download or use the app. Google Drive Backup is the one
+      exception: it's an optional paid add-on unlocked with a code. Message us on
+      <a href="https://wa.me/919539362538?text=Hi%2C%20I%27d%20like%20to%20unlock%20Google%20Drive%20Backup%20for%20CPMS" target="_blank" rel="noopener">WhatsApp</a>
+      or <a href="mailto:contact.mahendrar@gmail.com?subject=CPMS%20Backup%20Add-on">email</a> and we'll sort out pricing and send you the code.</p>
+    </details>
+    <details class="faq-item">
       <summary>Is my patient data safe?</summary>
       <p>Yes. All data is stored only on your device. Nothing is sent to any server unless
       you enable Google Drive Backup, which encrypts data before uploading.</p>
     </details>
     <details class="faq-item">
       <summary>What happens if I lose my phone?</summary>
-      <p>If you have Google Drive Backup enabled, you can restore all your data on a new
-      device by signing in with the same Google account and restoring from backup.</p>
+      <p>If you have Google Drive Backup enabled (see above — it's a paid add-on), you can
+      restore all your data on a new device by signing in with the same Google account and
+      restoring from backup. Without it, data lives only on the device it was entered on.</p>
     </details>
     <details class="faq-item">
       <summary>Can multiple doctors use the same app?</summary>
@@ -238,30 +251,23 @@
   </div>
 </section>
 
-<!-- ============ DOWNLOAD (GATED) ============ -->
+<!-- ============ DOWNLOAD (FREE) ============ -->
 <section class="download" id="download">
   <div class="download-card">
     <p class="eyebrow eyebrow-light">Get the app</p>
-    <h2>Enter your access code</h2>
-    <p class="download-sub">CPMS is currently shared directly with clinics. Enter the code you were given
-    to unlock the Android download.</p>
+    <h2>Free to download</h2>
+    <p class="download-sub">Patient records, visit history, prescription PDFs, and PIN lock — all
+    free, no access code required. Google Drive Backup is available separately as a paid
+    add-on unlocked with a code; see the FAQ below to arrange it.</p>
 
-    <form id="unlock-form" class="unlock-form" autocomplete="off">
-      <label for="code-input" class="sr-only">Access code</label>
-      <input type="text" id="code-input" name="code" placeholder="Enter access code" inputmode="text" autocapitalize="characters">
-      <button type="submit" class="btn btn-primary">Unlock</button>
-    </form>
-
-    <p id="unlock-message" class="unlock-message" role="status" aria-live="polite"></p>
-
-    <div id="download-panel" class="download-panel" hidden>
+    <div class="download-panel">
       <div class="download-panel-inner">
         <img src="assets/logo.png" alt="" class="download-icon" aria-hidden="true">
         <div>
           <p class="download-file">CPMS.apk</p>
           <p class="download-meta">Android 8.0+ &middot; v1.0.0</p>
         </div>
-        <a id="download-link" href="#" class="btn btn-primary" target="_blank" rel="noopener">Download APK</a>
+        <a id="download-link" href="https://github.com/mahendrar-dev/CPMS/releases/download/v1/app-release.apk" class="btn btn-primary" target="_blank" rel="noopener">Download APK</a>
       </div>
       <p class="download-note">Downloading from outside the Play Store? Android may warn you about
       "unknown sources" — that's expected. Allow the install to continue.</p>
@@ -280,6 +286,7 @@
       </div>
     </div>
     <div class="footer-links">
+      <a href="guide.html">User Guide</a>
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms of Use</a>
     </div>
